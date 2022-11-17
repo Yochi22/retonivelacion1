@@ -1,0 +1,171 @@
+@font-face{
+    font-family: texto;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100%;
+    font-family: texto;
+}
+
+header{
+    padding: 1.5rem 0 0 1rem;
+}
+
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+flex-direction: column;
+}
+
+.logo{
+    width: 70px;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.seccion1{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagenseccion1{
+    width: 100%;
+}
+
+.imagenseccion1 img{
+    width: 100%;
+}
+
+.seccion2{
+    background-color: rgb(1, 1, 29);
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.seccion2 h1{
+    color: coral;
+    margin-bottom: 1rem;
+}
+
+hr{
+    margin: 1rem;
+}
+
+.seccion3 {
+    margin-top: 1rem;
+  }
+  
+  .content3 {
+    display: flex;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  
+  .imgContent {
+    height: 100%;
+    padding: 0.5rem;
+  }
+  
+  .imgContent img {
+    height: 100%;
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: 680px) {
+    main {
+      display: flex;
+      padding: 0 5rem;
+      margin-top: 2rem;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .menu {
+      display: block;
+      display: flex;
+      align-items: center;
+    }
+  
+    .menu ul {
+      display: flex;
+      list-style: none;
+    }
+    .menu li {
+      margin-left: 1rem;
+    }
+  
+  
+    .section1Desktop {
+      display: flex;
+    }
+  
+    .seccion1 {
+      padding: 0;
+      margin-right: 1rem;
+    }
+    .imagenseccion1 {
+      height: 20rem;
+      overflow: hidden;
+    }
+  
+    .textoseccion1 {
+      display: flex;
+      margin-top: 2rem;
+    }
+  
+    .textoseccion1 h1,
+    .textoseccion1 div {
+      width: 100%;
+    }
+  
+    .textoseccion1 h1 {
+      font-size: 3vw;
+    }
+  
+    .seccion1desktop .seccion1 {
+      width: 70%;
+    }
+  
+    .seccion1desktop .seccion2 {
+      width: 35%;
+    }
+  
+  
+    .seccion2 {
+      margin: 0;
+      margin-left: 800px;
+      margin-top: -492px;
+    }
+
+  
+    .seccion3 {
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+    }
+  
+    .content3 {
+      width: 30%;
+    }
+  }
